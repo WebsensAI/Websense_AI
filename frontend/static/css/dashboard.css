@@ -1,0 +1,121 @@
+.dashboard-nav{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:25px 8%;
+
+    background:#111827;
+
+}
+
+.dashboard-nav ul{
+
+    display:flex;
+
+    gap:30px;
+
+}
+
+.dashboard-nav a{
+
+    text-decoration:none;
+
+}
+
+.dashboard{
+
+    padding:60px 8%;
+
+}
+
+.dashboard h1{
+
+    font-size:46px;
+
+}
+
+.dashboard p{
+
+    color:#CBD5E1;
+
+    margin-bottom:40px;
+
+}
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+    margin-bottom:60px;
+
+}
+
+.card{
+
+    background:rgba(255,255,255,.05);
+
+    backdrop-filter:blur(20px);
+
+    padding:40px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.card h2{
+
+    color:#3B82F6;
+
+    font-size:50px;
+
+}
+
+.activity{
+
+    margin-bottom:60px;
+
+}
+
+.activity table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.activity th{
+
+    text-align:left;
+
+    padding:20px;
+
+    background:#1E293B;
+
+}
+
+.activity td{
+
+    padding:20px;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
