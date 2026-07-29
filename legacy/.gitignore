@@ -1,9 +1,0 @@
-# Never commit your real API key
-.env
-
-# Dependency folder — huge, and reinstallable from package.json via `npm install`
-node_modules/
-
-# OS/editor clutter
-.DS_Store
-*.log
