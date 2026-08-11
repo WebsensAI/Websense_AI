@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Login | WebSense AI</title>
+
+    <!-- Google Font -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="/static/css/global.css">
+
+    <link rel="stylesheet"
+          href="/static/css/login.css">
+
+</head>
+
+<body>
+
+    <!-- Animated Background -->
+
+    <div class="bg-circle circle1"></div>
+    <div class="bg-circle circle2"></div>
+
+    <!-- Login Card -->
+
+    <div class="login-card">
+
+        <!-- Logo -->
+
+        <div class="logo">
+
+            <i class="fa-solid fa-robot"></i>
+
+            <h1>WebSense AI</h1>
+
+        </div>
+
+        <p class="tagline">
+
+            AI Powered Website Intelligence
+
+        </p>
+
+        <h2>
+
+            Welcome Back 👋
+
+        </h2>
+
+        <p class="subtitle">
+
+            Sign in to continue your website analysis.
+
+        </p>
+
+        <!-- FORM -->
+
+        <form id="loginForm">
+
+            <div class="form-group">
+
+                <label>Email Address</label>
+
+                <div class="input-box">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        required>
+
+                </div>
+
+            </div>
+
+            <div class="form-group">
+
+                <label>Password</label>
+
+                <div class="input-box">
+
+                    <i class="fa-solid fa-lock"></i>
+
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Enter your password"
+                        required>
+
+                    <i
+                        id="togglePassword"
+                        class="fa-solid fa-eye"></i>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <label class="remember">
+
+                    <input type="checkbox">
+
+                    Remember Me
+
+                </label>
+
+                <a href="#">
+
+                    Forgot Password?
+
+                </a>
+
+            </div>
+
+            <button
+                class="login-btn"
+                type="submit">
+
+                Login
+
+            </button>
+
+        </form>
+
+        <div class="divider">
+
+            <span>OR</span>
+
+        </div>
+
+        <button class="social google">
+
+            <i class="fa-brands fa-google"></i>
+
+            Continue with Google
+
+        </button>
+
+        <button class="social github">
+
+            <i class="fa-brands fa-github"></i>
+
+            Continue with GitHub
+
+        </button>
+
+        <p class="register">
+
+            Don't have an account?
+
+            <a href="#">
+
+                Create Account
+
+            </a>
+
+        </p>
+
+    </div>
+
+    <script src="/static/js/login.js"></script>
+
+</body>
+
+</html>

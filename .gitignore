@@ -1,0 +1,7 @@
+#Legacy folder- Older JS backend (need not display on git since itll not be necessary)
+legacy/
+.env
+__pycache__/
+*.pyc
+venv/
+data/
